@@ -1,0 +1,22 @@
+* Install vagrant
+* Create a directory somewhere for working on the code:
+
+mkdir /some/path
+
+* check out the code:
+
+cd /some/path
+git clone <git URL>
+cd syllabalastic
+git submodule init
+git submodule update --recursive
+
+* Put vagranty things in place:
+
+cp vagrant_config/* ../
+
+* Spin up a VM:
+
+vagrant up --provision
+
+* Browse to http://localhost:3456 and fiddle.
