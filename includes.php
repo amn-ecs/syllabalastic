@@ -49,6 +49,14 @@ $REVIEWERS = array(
 #			'code' => array()
 		)
 	),
+        "amn1o07" => array(
+		'module' => array(
+			'facultycode' => array("F7", "wf", "fp"),
+			'departmentcode' => array("FP", "JF")
+#			'themecode' => array(),
+#			'code' => array()
+		)
+	),
         "ob1a12" => array(
 		'module' => array(
 			'departmentcode' => array("FP", "JF"),
